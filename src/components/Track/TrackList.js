@@ -3,7 +3,7 @@ import { Platform, TextInput, Dimensions, ScrollView, Text, TouchableOpacity, Vi
 // Import the RtcEngine class and view rendering components into your project.
 import Routeskey from "../../navigation/routeskey"
 import Icon from 'react-native-vector-icons/Ionicons';
-import Header from '../Header/Header'
+// import Header from '../Header/Header'
 import data from "../../data.json"
 import RoutesKey from '../../navigation/routeskey';
 

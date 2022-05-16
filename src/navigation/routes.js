@@ -15,7 +15,6 @@ import ScanTrack from "../components/Scan/ScanTrack";
 import TrackList from "../components/Track/TrackList";
 import TrackStatus from "../components/Track/TrackDetail";
 import Tab from "../navigation/Tab";
-import Splash from '../components/Splash/Splash';
 
 const Stack = createStackNavigator();
 
@@ -31,11 +30,6 @@ export default class Routes extends Component {
           // ...TransitionPresets.SlideFromRightIOS, // this work the same as cardStyleInterpolator
           cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
         }}>
-        <Stack.Screen
-          name={Routeskey.SPLASH}
-          component={Splash}
-          options={{ headerShown: false, gesturesEnabled: false }}
-        />
         <Stack.Screen
           name={Routeskey.SEARCHTRACK}
           component={SearchTrack}

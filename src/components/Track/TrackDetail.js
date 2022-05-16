@@ -3,7 +3,7 @@ import { Platform, TextInput, Dimensions, ScrollView, Text, TouchableOpacity, Vi
 // Import the RtcEngine class and view rendering components into your project.
 import Routeskey from "../../navigation/routeskey"
 import Icon from 'react-native-vector-icons/Ionicons';
-import Header from '../Header/Header'
+// import Header from '../Header/Header'
 
 export default function App(props) {
   const { product } = props.route.params;
@@ -32,7 +32,6 @@ export default function App(props) {
 
   return (
     <SafeAreaView style={{ height: dimensions.height * 0.9 }}>
-      <Header title={"Tracking Details"} backButton={true} />
       <View style={Style.trackUpperView} >
         <View style={Style.topView}>
           <View style={Style.Avatar}>
